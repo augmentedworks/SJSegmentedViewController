@@ -408,7 +408,7 @@ import UIKit
     /**
      * Method for loading content ViewControllers and header ViewController
      */
-    func loadControllers() {
+    open func loadControllers() {
         
         if headerViewController == nil  {
             headerViewController = UIViewController()
